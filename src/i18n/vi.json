@@ -1,0 +1,299 @@
+{
+  "header": {
+    "title": "CÔNG TY CỔ PHẦN EVOSOLUTION",
+    "paragraph": "Chúng tôi mang đến nhiều giải pháp công nghệ nhằm giải quyết các nhu cầu của doanh nghiệp.",
+    "contact": "Liên hệ ngay"
+  },
+  "sidebar": {
+    "homepage": {
+      "title": "Trang chủ",
+      "link": "homepage"
+    },
+    "content": [
+      {
+        "title": "Dịch vụ",
+        "link": "features"
+      },
+      {
+        "title": "Dự án",
+        "link": "project"
+      },
+      {
+        "title": "Công nghệ",
+        "link": "technology"
+      },
+      {
+        "title": "khách hàng",
+        "link": "partner"
+      },
+      {
+        "title": "Liên hệ",
+        "link": "contact"
+      }
+    ],
+    "paragraph": "EvoSolution thành lập từ năm 2016 với đội ngũ nhân viên là các kỹ sư công nghệ trẻ, năng động và giàu kinh nghiệm.",
+    "profile": "Hồ sơ năng lực"
+  },
+  "footer": {
+    "title": "Liên hệ với chúng tôi",
+    "form_contact": {
+      "address": {
+        "label": "Văn phòng làm việc",
+        "content": "Tầng 4, 292 Ung Văn Khiêm, phường 25 , quận Bình Thạnh, thành phố Hồ Chí Minh.",
+        "map": "Mở bằng Google map"
+      },
+      "email": {
+        "label": "Email",
+        "content": "hoan.phungdang@evotek.vn"
+      },
+      "phone": {
+        "label": "Số điện thoại",
+        "content": "0979 593 585"
+      },
+      "work_hours": {
+        "label": "Thời gian làm việc",
+        "content": "8:30 sáng - 18:00 chiều từ thứ 2 đến thứ 6"
+      }
+    },
+    "placeholder": {
+      "name": {
+        "content": "Họ và tên"
+      },
+      "email": {
+        "content": "Email"
+      },
+      "phone": {
+        "content": "Số điện thoại"
+      },
+      "message": {
+        "content": "Tin nhắn"
+      }
+    },
+    "submit": {
+      "content": "Gửi tin nhắn"
+    }
+  },
+  "features": {
+    "title": "Dịch vụ cung cấp",
+    "paragraph": "Với lợi thế nhiều năm kinh nghiệm trong lĩnh vực công nghệ, chúng tôi luôn mang đến nhiều giải pháp công nghệ nhằm giải quyết các nhu cầu của doanh nghiệp",
+    "titleCard": [
+      {
+        "src": "top_1.svg",
+        "title": "Thiết kế Website",
+        "description": "Tư vấn xây dựng website chuyên nghiệp theo yêu cầu của doanh nghiệp."
+      },
+      {
+        "src": "top_2.svg",
+        "title": "Thiết kế ứng dụng mobile",
+        "description": "Xây dựng ứng dụng cho nhiều lĩnh vực trên các nền tảng di động, từ native (Android/ iOS) đến đa nền tảng sử dụng công nghệ (React Native, Flutter)."
+      },
+      {
+        "src": "top_3.svg",
+        "title": "Tư vấn giải pháp công nghệ",
+        "description": "Tư vấn cho doanh nghiệp các giải pháp ứng dụng công nghệ 4.0 vào quá trình điều hành và hoạt động."
+      },
+      {
+        "src": "top_4.svg",
+        "title": "Triển khai hệ thống server",
+        "description": "Tư vấn xây dựng website chuyên nghiệp theo yêu cầu của doanh nghiệp."
+      },
+      {
+        "src": "top_5.svg",
+        "title": "Tư vấn hạ tầng mạng",
+        "description": "Tư vấn giải pháp hạ tầng mạng cho doanh nghiệp, kết nối từ xa VPN site-to-site, SSL - VPN, bảo mật firewall, hệ thống wifi cloud,..."
+      }
+    ]
+  },
+  "about": {
+    "title": "Về chúng tôi",
+    "paragraph": "Thành lập từ năm 2016 với đội ngũ nhân viên là các kỹ sư công nghệ trẻ, năng động và giàu kinh nghiệm. Tại EvoSolution, chúng tôi chuyên cung cấp các dịch vụ và giải pháp công nghệ mới cho các doanh nghiệp thuộc nhiều lĩnh vực.",
+    "icon_title": {
+      "title1": "Vì khách hàng",
+      "title2": "Nhiệt huyết",
+      "title3": "Nhiệt huyết",
+      "title4": "Sáng tạo",
+      "title5": "Trách nhiệm"
+    },
+    "about_list": [
+      {
+        "title": "Vì khách hàng",
+        "icon": "about_1.svg"
+      },
+      {
+        "title": "Nhiệt huyết",
+        "icon": "about_2.svg"
+      },
+      {
+        "title": "Teamwork",
+        "icon": "about_3.svg"
+      },
+      {
+        "title": "Sáng tạo",
+        "icon": "about_4.svg"
+      },
+      {
+        "title": "Trách nhiệm",
+        "icon": "about_5.svg"
+      }
+    ]
+  },
+  "project": {
+    "title": "Các dự án đã bàn giao",
+    "paragraph": "Chúng tôi luôn làm việc với tinh thần trách nhiệm cao nhất, luôn gắn trách nhiệm của từng cá nhân trên mọi công việc hằng ngày. Từ đó cam kết chất lượng với từng sản phẩm và dịch vụ mà công ty cung cấp, đảm bảo được những quyền lợi của khách hàng một cách hợp lý nhất.",
+    "project_list": [
+      {
+        "linkProject": "https://era.edu.vn/",
+        "imageProject": "project1.svg",
+        "titleProject": "Giáo dục giới tính ERA",
+        "descProject": "Hệ thống giáo dục giới tính cho trẻ, cập nhật thông tin,kỹ năng giáo dục giới tính trẻ cho gia đình và nhà trường."
+      },
+      {
+        "linkProject": "https://testuru.com/",
+        "imageProject": "project2.svg",
+        "titleProject": "Thi thử IELTS online TESTURU",
+        "descProject": "Hệ thống thi thử và ôn luyện IELTS trực tuyến"
+      },
+      {
+        "linkProject": "",
+        "imageProject": "project3.svg",
+        "titleProject": "Chấm công BWORK",
+        "descProject": "Ứng dụng chấm công cho doanh nghiệp, quản lý giờ đi làm, giờ trễ từ đó tính tổng lương cho nhân viên."
+      },
+      {
+        "linkProject": "",
+        "imageProject": "project4.svg",
+        "titleProject": "Mạng xã hội du lịch JOCO",
+        "descProject": "Mạng xã hội chia sẻ thông tin du lịch: điểm đến, kinh nghiệm du lịch, tour, nhà hàng, khách sạn."
+      },
+      {
+        "linkProject": "",
+        "imageProject": "project5.svg",
+        "titleProject": "Takamart",
+        "descProject": "Ứng dụng mua bán rao vặt, cho phép người mua và người bán kết nối và giao dịch online."
+      },
+      {
+        "linkProject": "",
+        "imageProject": "project6.svg",
+        "titleProject": "Chợ Phú Quốc",
+        "descProject": "Ứng dụng mua bán, rao vặt trực tuyến được phát triển dành riêng cho người dân sinh sống và làm việc tại Phú Quốc."
+      }
+    ]
+  },
+  "technology": {
+    "title": "Công nghệ sử dụng",
+    "paragraph": "Các thành viên EvoSolution luôn không ngừng tư duy, học hỏi công nghệ mới và sẵn sàng đón nhận cơ hội để trau dồi thêm nhiều kỹ năng và kinh nghiệm. Khao khát sáng tạo luôn luôn hiện hữu trong mọi thành viên tại EvoSolution.",
+    "techno_icon": [
+      {
+        "icon": "postgresql-icon.png",
+        "title": "PostgreSQL"
+      },
+      {
+        "icon": "java-icon.png",
+        "title": "Java"
+      },
+      {
+        "icon": "nodejs-icon.png",
+        "title": "Nodejs"
+      },
+      {
+        "icon": "php.png",
+        "title": "PHP"
+      },
+      {
+        "icon": "laravel.png",
+        "title": "Laravel"
+      },
+      {
+        "icon": "docker-icon.png",
+        "title": "Docker"
+      },
+      {
+        "icon": "reactjs-icon.png",
+        "title": "React Native"
+      },
+      {
+        "icon": "flutterio-icon.png",
+        "title": "Flutter"
+      },
+      {
+        "icon": "ios-icon.png",
+        "title": "iOS"
+      },
+      {
+        "icon": "android-icon.png",
+        "title": "Android"
+      },
+      {
+        "icon": "vuejs-icon.png",
+        "title": "Vuejs"
+      },
+      {
+        "title": "WordPress",
+        "icon": "wordpress-icon.png"
+      }
+    ]
+  },
+  "partner": {
+    "title": "Khách hàng của chúng tôi",
+    "paragraph": "Chúng tôi luôn lấy mục tiêu và đích đến cuối cùng là khách hàng. Vì thế việc bảo đảm và thực hiện cam kết với khách hàng luôn là mục tiêu hàng đầu với chúng tôi.",
+    "list_partner": [
+      {
+        "image": "logo-vihatt.png",
+        "class": "vihat"
+      },
+      {
+        "image": "logo-joca.png",
+        "class": "joca"
+      },
+      {
+        "image": "logo-trobz.png",
+        "class": "trobz"
+      },
+      {
+        "image": "logo-viettel.png",
+        "class": "viettel"
+      },
+      {
+        "image": "logo-testuru.png",
+        "class": "testuru"
+      },
+      {
+        "image": "logo-takamart.png",
+        "class": "takamart"
+      },
+      {
+        "image": "logo-315.png",
+        "class": "hopistal"
+      },
+      {
+        "image": "logo-mobi.png",
+        "class": "mobifone"
+      }
+    ]
+  },
+  "formValidation": {
+    "fullname": {
+      "required": "Đây là trường bắt buộc",
+      "minLength": "Tên của bạn ít nhất 2 ký tự"
+    },
+    "email": {
+      "required": "Đây là trường bắt buộc",
+      "pattern": "Hãy điền đúng định dạng email"
+    },
+    "phoneNumber": {
+      "required": "Đây là trường bắt buộc",
+      "pattern": "Số điện thoại phải bắt đầu với 03,07,08,05...",
+      "minLength": "Số điện thoại chỉ bao gồm 10 kí tự",
+      "maxLength": "Số điện thoại chỉ bao gồm 10 kí tự"
+    }
+  },
+  "notify": {
+    "success": "Thông tin của bạn đã được gởi đi thành công !",
+    "fail": "Thông tin của bạn chưa được gởi đi thành công, xin hay thử lại !"
+  },
+  "btnAction": {
+    "close": "Đóng",
+    "confirm": "Xác hận",
+    "back": "Quay lại"
+  }
+}

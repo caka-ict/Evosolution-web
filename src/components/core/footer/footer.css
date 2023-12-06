@@ -1,0 +1,149 @@
+.footer-container {
+  background-image: url("../../../../public/img/footer/bg_footer.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footer-content > h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.footer-form-contact {
+  max-width: 1100px;
+  margin: 100px auto 0 auto;
+  display: flex;
+  border-radius: 5px;
+  height: 510px;
+  overflow: hidden;
+}
+.footer-contact {
+  background-color: white;
+  background-image: url("../../../../public/img/footer/map.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 510px;
+  width: 35%;
+  padding: 20px 20px;
+}
+.contact > h1 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.contact > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.map,
+.email {
+  display: block;
+}
+.map > a,
+.email >a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-form {
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 100%;
+  width: 65%;
+  background-color: white;
+}
+::placeholder {
+  font-size: 18px;
+  font-family: var(--font);
+}
+.form-input {
+  height: 35px;
+}
+
+.input-form {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  height: 100%;
+  padding-left: 5px;
+  width: 100%;
+  transition: all ease 0.5s;
+}
+.input-form:focus {
+  border-bottom: 1px solid black;
+}
+.button-submit {
+  width: 80%;
+  margin: 75px auto 0 auto;
+  width: 650px;
+  border-radius: 30px;
+  overflow: hidden;
+  height: 45px;
+}
+.button-submit button {
+  background-color: var(--bg-color);
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.button-submit button {
+  font-size: 20px;
+  font-family: var(--font);
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+}
+.spinner {
+  width: 35px;
+  height: 35px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+}
+.text-arena {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  transition: all ease 0.5s;
+}
+.text-arena:focus {
+  border: 1px solid black;
+}
+@keyframes spin-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .footer-container {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+  .footer-form-contact {
+    display: flex;
+    flex-direction: column-reverse;
+    height: fit-content;
+    max-width: 700px;
+  }
+  .footer-form {
+    width: 100%;
+  }
+  .footer-contact {
+    width: 100%;
+  }
+}

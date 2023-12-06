@@ -1,0 +1,24 @@
+:root {
+  --text-color: rgba(255, 185, 40, 1);
+  --bg-color: rgba(255, 185, 40, 1);
+  --font: "SVN-Gilroy";
+}
+.modal-content {
+  background-color: #fdf7df !important;
+  border: 1px solid #feec6f !important;
+}
+.text-noti {
+  font-weight: 550;
+}
+.button-close-modal {
+  background-color: var(--bg-color);
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 550;
+}
+.button-close-modal:hover {
+  opacity: 0.8;
+}

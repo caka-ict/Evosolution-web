@@ -1,0 +1,56 @@
+:root {
+  --font: "SVN-Gilroy";
+  --color-404: #007cba;
+}
+
+.not-found {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  gap: 100px;
+}
+.logo {
+  text-align: center;
+}
+.logo-notfound {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.logo-content a {
+  color: black;
+  font-size: 40px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--color-404);
+}
+.logo-content a:hover {
+  color: var(--color);
+  text-decoration: none;
+}
+.logo-content {
+  text-align: center;
+}
+.logo-content > h1 {
+  color: black;
+  font-size: 60px;
+  font-family: var(--font);
+}
+.logo img {
+  height: 150px;
+}
+.notfound-footer {
+  text-align: center;
+}
+.notfound-footer h1 {
+  font-weight: 300;
+}
+.notfound-footer-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+  font-size: 25px;
+}

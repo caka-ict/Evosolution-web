@@ -1,0 +1,117 @@
+:root {
+  --text-color: rgba(255, 185, 40, 1);
+  --bg-color: rgba(255, 185, 40, 1);
+  color: #00a4d6;
+  --font: "SVN-Gilroy";
+}
+.about {
+  width: 100%;
+  margin-top: 100px;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+.about-container {
+  width: 100%;
+  height: 720px;
+  background-image: url("../../../../public/img/header/banner-1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.content-about-container {
+  width: 100%;
+  padding-top: 80px;
+  text-align: center;
+}
+.content-about-description > p {
+  color: white;
+}
+.content-about-container > h1 {
+  font-size: 40px;
+  color: white;
+}
+.content-about-description > span {
+  color: white;
+  font-size: 18px;
+  opacity: 0.9;
+}
+.about-list-icon {
+  max-width: 1100px;
+  height: 200px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.icon-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+.icon-content:hover > p {
+  color: var(--text-color);
+}
+.icon-content:hover > .img-container > img {
+  filter: invert(25%) sepia(56%) saturate(779%) hue-rotate(336deg)
+    brightness(104%) contrast(101%);
+}
+.img-container {
+  cursor: pointer;
+  padding: 20px 20px;
+}
+.img-container > img {
+  height: 100px;
+  width: 100%;
+  fill: black;
+}
+
+.icon-content > img {
+  height: 120px;
+  filter: invert(100%) sepia(0%) saturate(7459%) hue-rotate(144deg)
+    brightness(105%) contrast(96%);
+  transition: all ease-in 0.5s;
+}
+
+.icon-content > p {
+  color: white;
+  font-size: 20px;
+  transition: all ease-in 0.2s;
+}
+.icon {
+  font-size: 40px;
+  color: white;
+  font-weight: 300;
+}
+.about-list-icon {
+}
+.icon-content {
+  overflow: hidden;
+}
+.about-list-icon-2 {
+  display: none;
+}
+@media only screen and (max-width: 855px) {
+  .about-list-icon-2 {
+    display: block;
+  }
+  .about-list-icon-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .swiper-container {
+    width: 500px;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+} */

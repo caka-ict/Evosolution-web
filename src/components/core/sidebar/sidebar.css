@@ -1,0 +1,130 @@
+:root {
+  --color: rgba(255, 185, 40, 1);
+}
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  height: 100%;
+  background-color: black;
+  z-index: 6;
+  padding: 0 30px;
+  transition: all ease-in-out 0.3s;
+}
+.close {
+  transform: translateX(100%);
+  background-color: black;
+}
+.open {
+  transform: translateX(0);
+  background-color: black;
+}
+.sidebar-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.sidebar-header-content > span {
+  font-size: 20px;
+  color: white;
+  opacity: 0.7;
+}
+.sidebar-header-icon {
+  cursor: pointer;
+}
+.sidebar-header-icon::after {
+  display: inline-block;
+  content: "\00d7"; /* This will render the 'X' */
+  font-size: 30px;
+  color: white;
+}
+.sidebar-header-icon:hover::after {
+  color: var(--color);
+}
+.sidebar-content {
+  padding: 0;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sidebar-list-item {
+}
+.sidebar-item {
+  font-family: "SVN-Gilroy";
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 21px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.first-sidebar-item {
+  font-family: "SVN-Gilroy";
+  color: var(--color);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px;
+  cursor: pointer;
+}
+.first-sidebar-item:hover {
+  color: white;
+}
+.sidebar-item:hover {
+  text-decoration: none;
+  color: var(--color);
+}
+.sidebar-item:active {
+  text-decoration: none;
+  color: var(--evo);
+}
+.sidebar-about {
+  margin-top: 20px;
+}
+.sidebar-about > span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.profile {
+  margin-top: 20px;
+}
+.link_profile > span {
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 400;
+  color: var(--color);
+  text-decoration: underline var(--color);
+}
+.link_profile > i {
+  font-size: 18px;
+  margin-left: 9px;
+  color: var(--color);
+}
+
+.language {
+  margin-top: 20px;
+  height: 30px;
+}
+.select-lang {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+.sidebar-list-item {
+  list-style: none;
+}
+@media only screen and (max-width: 348px) {
+  .sidebar-container {
+    width: 100%;
+  }
+}

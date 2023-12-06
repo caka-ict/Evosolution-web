@@ -1,0 +1,117 @@
+:root {
+  --color: rgba(255, 185, 40, 1);
+}
+.container-header {
+  height: 800px;
+  position: relative;
+}
+.container-content {
+  position: relative !important;
+  bottom: 730px;
+  z-index: 3;
+}
+.logo-image {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 140px;
+  cursor: pointer;
+  z-index: 5;
+}
+.logo-image:hover {
+  cursor: pointer;
+}
+.logo-image > img {
+  width: 100%;
+  font-size: 40px;
+  cursor: pointer;
+}
+.toggle-sidebar {
+  height: 25px;
+  width: 30px;
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  cursor: pointer;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.toggle-sidebar > .dash {
+  height: 4px;
+  width: 100%;
+  background-color: var(--color);
+}
+.toggle-sidebar > .icon-toggle-sidebar {
+  color: var(--text-color);
+  font-size: 30px;
+}
+.display-none {
+  display: none;
+}
+.intro {
+  width: 100%;
+  padding: 0;
+  background: url(../../../../public/img/header/Banner-1.svg) center center
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+#tsparticles {
+  height: 100%;
+  z-index: 0;
+}
+.intro h1 {
+  color: var(--text-color);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.intro-text p {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 58px;
+  margin: 20px auto 0 auto !important;
+}
+header .intro-text {
+  padding-top: 200px;
+  padding-bottom: 300px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btn-header {
+  font-family: var(--font);
+  color: #fff;
+  background: linear-gradient(100.54deg, #ffb928 0%, #fecf36 100%);
+  letter-spacing: 1px;
+  font-weight: bold;
+  height: 60px;
+  width: 198px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 21px;
+  border-radius: 30px;
+  transition: all 0.3s linear;
+  border: 0;
+}
+.btn-header > a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+.btn-header:hover a {
+  color: black;
+}
